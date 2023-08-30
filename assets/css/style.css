@@ -1,0 +1,49 @@
+/*15730
+/*comment
+@media screen */
+:root{
+    --mainWhite: #f5f5f5f2;
+    --mainBlack: #22222233;
+    --mainGreen: #319f5ff5;
+    --mainBlue: #3631cef5;
+    --mainRed: #a50f0ff5;
+}
+
+body{
+    background: var(--mainWhite);
+    color: var(--mainBlack);
+}
+
+.budget-feedback,
+.expense-feedback{
+    display: none;
+
+}
+
+.budget-form{
+    border: 0.15rem solid var(--mainGreen);
+    padding: 1rem;
+    border-radius: 0.25rem;
+
+}
+
+.expense-form{
+    border: 0.15rem solid var(--mainRed);
+    padding: 1rem;
+    border-radius: 0.25rem;
+
+}
+
+.budget-submit{
+    background: transparent;
+    border: 0.1rem solid var (--mainGreen);
+    color: var var(--mainGreen);
+
+}
+
+.expense-submit :hover {
+    background: var (--mainRed);
+    border: 0.1rem solid var (--mainGreen);
+    color: var var(--mainGreen);
+
+}
